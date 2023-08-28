@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="boxHeartImg">
+            <div class="heartItem item1">
+                <img src="./image/heart.png" alt="">
+            </div>
+            <div class="heartItem item2">
+                <img src="./image/heart.png" alt="">
+            </div>
+            <div class="heartItem item3">
+                <img src="./image/heart.png" alt="">
+            </div>
+        </div>
+        <div class="heartBox">
+            <div class="heart"></div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <div class="percent">100%</div>
+        </div>
+        <h2 class="textBox">
+            <span class="textLoad">loading love</span>
+            <span class="cricle1">.</span>
+            <span class="cricle2">.</span>
+            <span class="cricle3">.</span>
+        </h2>
+        <div class="buttonCLick">
+            <img src="./image/cursor.png" alt="">
+            <div class="button">
+                <p class="textBtn"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
